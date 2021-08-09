@@ -1,0 +1,12 @@
+times = ('Atlético', 'Internacional', 'São Paulo', 'Palmeiras', 'Vasco',
+'Flamengo', 'Fluminense', 'Sport', 'Santos', 'Fortaleza')
+print('-='*15)
+print(f'Os Times são {times}')
+print('-='*15)
+print(f'Os primeiros colocados são {times[0:5]}')
+print('-='*15)
+print(f'Os últimos 4 colocados são {times[-4:]}')
+print('-='*15)
+print(f'Em ordem alfábetica são {sorted(times)}')
+print('-='*15)  
+print(f'O Vasco está na {times.index("Vasco")+1}ª posição.')
